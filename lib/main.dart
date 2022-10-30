@@ -96,7 +96,32 @@ class ThirdPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 17, 57, 89),
-      
-    );
+     body: Column(
+       mainAxisAlignment: MainAxisAlignment.spaceAround,
+       children: [
+         Text('Budżet',
+         style:GoogleFonts.poppins(
+         fontSize: 20,
+         color: Colors.white
+          ) ),
+         Text('Kalendarz',
+         style:GoogleFonts.poppins(
+         fontSize: 20,
+         color: Colors.white
+          )),
+         Text('Lista zakupów',
+         style:GoogleFonts.poppins(
+         fontSize: 20,
+         color: Colors.white
+         )),
+         Text('Długi',
+         style:GoogleFonts.poppins(
+         fontSize: 20,
+         color: Colors.white
+          )),
+       ],
+     )
+      );
+    
   }
 }
