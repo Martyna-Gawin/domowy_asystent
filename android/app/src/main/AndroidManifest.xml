@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.domowy_asystent">
+    package="com.martynagawin.domowy_asystent">
    <application
         android:label="domowy_asystent"
         android:name="${applicationName}"
