@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dart:math';
 
-
-
 class MenuPage extends StatelessWidget {
   const MenuPage({
     Key? key,
@@ -21,7 +19,6 @@ class MenuPage extends StatelessWidget {
             begin: Alignment.topLeft,
             end: Alignment(0.8, 1),
             colors: <Color>[
-<<<<<<< HEAD
               Color.fromARGB(255, 107, 74, 74),
               Color.fromARGB(255, 128, 94, 94),
               Color.fromARGB(255, 93, 147, 192),
@@ -29,22 +26,12 @@ class MenuPage extends StatelessWidget {
               Color.fromARGB(255, 178, 214, 238),
               Color.fromARGB(255, 240, 243, 244),
               Color.fromARGB(255, 240, 243, 244),
-=======
-              Color.fromARGB(255, 27, 68, 7),
-              Color.fromARGB(255, 38, 87, 13),
-              Color.fromARGB(255, 54, 112, 25),
-              Color.fromARGB(255, 66, 130, 34),
-              Color.fromARGB(255, 83, 154, 48),
-              Color.fromARGB(255, 128, 202, 90),
-              Color.fromARGB(255, 172, 243, 136),
->>>>>>> a42616a57e423be292963b8f0113f77502c4b98b
             ],
             tileMode: TileMode.mirror,
           ),
         ),
         child: ListView(
           children: [
-<<<<<<< HEAD
             Center(
               child: Column(
                 children: const [
@@ -62,7 +49,7 @@ class MenuPage extends StatelessWidget {
                   ),
                 ],
               ),
-=======
+            ),
             Column(
               children: [
                 Container(
@@ -71,14 +58,12 @@ class MenuPage extends StatelessWidget {
                   color: Colors.green,
                 ),
               ],
->>>>>>> a42616a57e423be292963b8f0113f77502c4b98b
             ),
           ],
         ),
       ),
     );
   }
-<<<<<<< HEAD
 }
 
 class CategoryWidget extends StatelessWidget {
@@ -128,6 +113,3 @@ class CategoryWidget extends StatelessWidget {
     );
   }
 }
-=======
-}
->>>>>>> a42616a57e423be292963b8f0113f77502c4b98b
