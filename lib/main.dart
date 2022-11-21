@@ -29,6 +29,11 @@ class MyApp extends StatelessWidget {
   }
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a42616a57e423be292963b8f0113f77502c4b98b
 class MenuPage extends StatelessWidget {
   const MenuPage({
     Key? key,
