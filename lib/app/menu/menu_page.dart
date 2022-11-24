@@ -50,15 +50,6 @@ class MenuPage extends StatelessWidget {
                 ],
               ),
             ),
-            Column(
-              children: [
-                Container(
-                  width: double.infinity,
-                  height: 200,
-                  color: Colors.green,
-                ),
-              ],
-            ),
           ],
         ),
       ),
