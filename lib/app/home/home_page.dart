@@ -1,4 +1,4 @@
-import 'package:domowy_asystent/app/auth/auth_gate.dart';
+import 'package:domowy_asystent/app/auth/pages/auth_gate.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

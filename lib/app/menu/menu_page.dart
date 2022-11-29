@@ -1,3 +1,4 @@
+import 'package:domowy_asystent/app/auth/pages/user_profile.dart';
 import 'package:domowy_asystent/app/category_widget/category_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -37,7 +38,13 @@ class MenuPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (_) => const UserProfile(),
+                          ),
+                        );
+                      },
                       icon: const Icon(Icons.person, color: Colors.white),
                       iconSize: 30,
                     ),

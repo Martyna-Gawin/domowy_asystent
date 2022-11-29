@@ -12,7 +12,7 @@ class CategoryWidget extends StatelessWidget {
       child: ListView(
         children: [
           Padding(
-            padding: const EdgeInsets.all(20.0),
+            padding: const EdgeInsets.only(bottom: 22, left: 20, right: 20),
             child: Container(
               width: 200,
               height: 200,
@@ -46,7 +46,7 @@ class CategoryWidget extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(20.0),
+            padding: const EdgeInsets.only(bottom: 22, left: 20, right: 20),
             child: Container(
               width: 200,
               height: 200,
@@ -80,7 +80,7 @@ class CategoryWidget extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(20.0),
+            padding: const EdgeInsets.only(bottom: 22, left: 20, right: 20),
             child: Container(
               width: 300,
               height: 200,
